@@ -806,9 +806,13 @@ form#contactForm {
     margin: 0 0 0 auto;
   }
 
-  .hero article {
-    max-width: 1000px;
-  }
+ .hero article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1000px;
+  padding: 3rem 2rem;
+}
 
   /* ######### 10a-ii. Navigation, Large screen rules ######### */
   .navWrap {
