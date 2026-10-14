@@ -816,8 +816,10 @@ form#contactForm {
 
   /* ######### 10a-ii. Navigation, Large screen rules ######### */
   .navWrap {
-  }
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   .navToggleLabel {
     display: none;
   }
